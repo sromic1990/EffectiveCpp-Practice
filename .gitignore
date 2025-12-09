@@ -1,0 +1,21 @@
+# Build folders
+/out/
+/project-files/
+/cmake-build-*/
+**/build/
+
+# VS / VSCode / CLion / IntelliJ stuff
+.vscode/
+.idea/
+out/
+cmake-build-*/
+*.sln
+*.vcxproj*
+*.user
+*.cache
+*.user
+*.vcxproj*
+*.sln
+
+# Genaral
+.DS_Store
