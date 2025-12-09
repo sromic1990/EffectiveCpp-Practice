@@ -1,4 +1,4 @@
-# FrameGraph
+# Effective C++ Practice
 
 A practice project for effective C++ techniques.
 
