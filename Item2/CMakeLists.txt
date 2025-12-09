@@ -2,7 +2,7 @@
 
 # Exercise 1.1 – MACRO EXORCISM (Refactor)
 add_executable(item2_1_1_macro_exorcism
-    src/1_MACRO_EXORCISM_Refactor/1_1/main.cpp
+    1_MACRO_EXORCISM_Refactor/src/1.1/main.cpp
 )
 
 # Later:
