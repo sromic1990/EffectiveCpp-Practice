@@ -38,7 +38,6 @@ int main()
     int b = SQR(a + 1);
     std::cout << "Broken macro result: " << b << std::endl;
     std::cout << "Explanation: The macro expands to a + 1 * a + 1, which is interpreted as a + (1 * a) + 1 due to operator precedence, resulting in 5 + 5 + 1 = 11 instead of the expected (5 + 1) * (5 + 1) = 36." << std::endl;
-#undef
 
     b = SqrMacroRefactor::Sqr(a + 1);
     std::cout << "Fixed constexpr result: " << b << std::endl;
@@ -49,3 +48,4 @@ int main()
 
     return 0;
 }
+#undef SQR
