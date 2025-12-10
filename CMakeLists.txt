@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Add per-item subdirectories
-add_subdirectory(Item2)
+add_subdirectory(Items)
 
 # Just to prove it works, print something at configure time
 message(STATUS "Configuring ${PROJECT_NAME} with C++ standard ${CMAKE_CXX_STANDARD}")
